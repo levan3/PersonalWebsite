@@ -1,0 +1,843 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+
+}
+
+
+p {
+    font-size: 1em;
+}
+
+ul {
+    padding: 0;
+}
+
+
+/ About /
+.top {
+
+    background-size: cover;
+    min-height: 250px;
+
+}
+
+.about {
+    background-color: black;
+    background-size: 2px;
+    min-height: 630px;
+}
+
+.topgridleft {
+    width: 50%;
+    float: left;
+}
+
+.topgridright {
+    width: 50%;
+    float: left;
+}
+
+.profile-pic {
+    text-align: center;
+}
+
+ul.address {
+    margin-top: 1.5em;
+    border-top: 2px dotted #00bcd4;
+    padding-top: 0.5em;
+}
+
+ul.address li ul.contacttext li {
+    display: inline-block;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.76);
+    margin-top: 1em;
+    font-weight: 600;
+
+}
+
+ul.address li ul.contacttext li:nth-child(1) {
+    width: 20%;
+}
+
+.topgrids {
+    padding: 9em 0 0 0;
+}
+
+.profile-pic img {
+    width: 51.5%;
+    height: 75%;
+    border-radius: 20%;
+}
+
+
+.contactright li {
+    list-style-type: none;
+}
+
+.gridtext p {
+    width: 75%;
+}
+
+ul.contacttext li a {
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.profile-pic h3 {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+.profile-pic p {
+    color: #ffc53e;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.topgridright h3 {
+    font-size: 3em;
+    color: #fff;
+    letter-spacing: 2px;
+
+}
+
+.topgridright p {
+    color: #c5c2c2;
+    font-size: 1em;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+}
+
+ul.contacttext li span {
+    margin: 0.2em;
+    color: #d9edf7;
+}
+
+.profile-pic {
+    border: 5px solid rgba(238, 238, 238, 0.53);
+    width: 360px;
+    height: 360px;
+    padding: 50px;
+    margin: 0 auto;
+
+}
+
+li.contactleft b {
+    color: #fff;
+}
+
+
+
+.skills,
+.contact,
+.recommendations {
+    padding: 4em;
+}
+
+.heading h3 {
+    font-size: 3em;
+    color: #00bcd4;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+
+
+}
+
+
+
+.skillheading h4 {
+    text-align: center;
+    font-size: 3em;
+    color: #00bcd4;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+
+
+.recommendationheading h3 {
+    font-size: 3em;
+    color: #00bcd4;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 35px
+}
+
+
+
+/* education and experience */
+.edutop {
+    /* background: #212121; */
+    background-color: black;
+
+}
+
+.edugridleft h3 {
+    color: #fff;
+    font-size: 2em;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+
+}
+
+.eduinfo1 h4 {
+    text-transform: capitalize;
+    color: #dcad3f;
+    letter-spacing: 2px;
+
+}
+
+.edugridheader h3 {
+    color: #00bcd4;
+    font-size: 3em;
+
+
+}
+
+.eduinforight1 h3 {
+    color: #fff;
+    font-size: 2em;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+
+}
+
+.eduinforight2 h3 {
+    color: #fff;
+    font-size: 1.7em;
+    text-transform: capitalize;
+}
+
+.eduinforight2 h4 {
+    color: #dcad3f;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+
+}
+
+.eduinfo2 p {
+    color: #8a8a8a;
+    font-size: 1em;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    margin: 1em 0;
+}
+
+.eduinforight2 p {
+    color: #8a8a8a;
+    font-size: 1em;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    width: 59%;
+}
+
+/* skills */
+.skills {
+
+    background-size: cover;
+    
+}
+
+.skills-bar .bar_group__bar.thin::before, .skills-bar .bar_group__bar.thick::before {
+  display: block;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+.skills-bar .bar_group__bar.thin::before {
+  width: 100%;
+  height: 12px;
+  border-radius: 2px;
+  background: #E4E4E4;
+}
+
+.skills-bar .bar_group__bar.thin {
+  width: 0%;
+  height: 12px;
+  border-radius: 2px;
+  margin-bottom: 10px;
+ transition: width 1s;
+		 
+background: linear-gradient(to right, #fc67fa, #f4c4f3);
+
+}
+.skills-bar .b_label, .skills-bar .bar_label_min, .skills-bar .bar_label_max, .skills-bar .b_tooltip span {
+    color: #fff;
+    font-size: .9em;
+	font-weight:600;
+}
+.skills-bar .bar_label_max {
+    position: absolute;
+    right: 0;
+    margin: 1em 0 0 0;
+}
+.skills-bar .bar_label_min {
+    position: absolute;
+    left: 0;
+    margin: 1em 0 0 0;
+}
+.skills-bar .b_tooltip {
+  transition: all 1s;
+  position: relative;
+  float: left;
+  left: 100%;
+  padding: 4px 10px 7px 10px;
+  background-color: #fd0202;
+  transform: translateX(-50%) translateY(-30px);
+  border-radius: 2px;
+  line-height: 11px;
+}
+.skills-bar .b_tooltip span {
+  color: white;
+}
+.skills-bar .b_tooltip--tri {
+  width: 0;
+  height: 0;
+  position: absolute;
+  content: '';
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: rgb(236, 25, 68) transparent transparent transparent;
+}
+.skills-bar .bar_group__bar:nth-of-type(1) {
+   background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+}
+    z-index: 9990 !important;
+}
+.skills-bar .bar_group__bar:nth-of-type(2) {
+
+background: linear-gradient(to right, #fc67fa, #f4c4f3); 
+
+}
+.skills-bar .bar_group__bar:nth-of-type(3) {
+ 
+background: linear-gradient(to right, #F9D423, #FF4E50);
+
+}
+.skills-bar .bar_group__bar:nth-of-type(4) {
+
+background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); 
+
+}
+.skills-bar .bar_group__bar:nth-of-type(5) {
+  background: #00bdbd;
+}
+.bar_group {
+  position: relative;
+}
+
+/* Project */
+
+.projects {
+
+    padding: 70px;
+
+}
+
+.projects {
+
+    background-size: cover;
+    min-height: 500px;
+}
+
+.GOL {
+    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../images/1.jpeg);
+    background-position: center center;
+    color: #fff;
+
+
+}
+
+
+.GOL:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/1.jpeg);
+    background-position: center center;
+    color: #fff;
+}
+
+
+
+
+.Testing {
+    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../images/2.jpeg);
+    background-position: center center;
+    color: #fff;
+}
+
+.Testing:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.00)), url(../images/2.jpeg);
+    background-position: center center;
+    color: #fff;
+}
+
+
+
+.stockmarket {
+    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../images/3.jpeg);
+    background-position: center center;
+    color: #fff;
+}
+
+.stockmarket:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.00)), url(../images/3.jpeg);
+    background-position: center center;
+    color: #fff;
+}
+
+
+.button,
+.more-projects-button {
+    display: inline-block;
+    padding: 0.1em 0.3em;
+    border: 0.16em solid #FFFFFF;
+    margin: 0 0.25em 0.25em 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.15s;
+}
+
+.button:hover,
+.more-projects-button {
+    color: #DDDDDD;
+    border-color: #DDDDDD;
+}
+
+.button:active,
+.more-projects-button {
+    color: #BBBBBB;
+    border-color: #BBBBBB;
+}
+
+.more-projects-button {
+    position: absolute;
+    top: 30px;
+}
+
+/* recommendation */
+
+.recommendations {
+
+    background-color: black;
+    background-size: cover;
+    min-height: 600px;
+
+}
+
+
+.recommendations input[type="text"] {
+    width: 100%;
+    color: #fff;
+    float: left;
+    background: none;
+    outline: none;
+    font-size: 1em;
+    padding: 1em 1em;
+    margin-bottom: 1em;
+    border: solid 1px #fff;
+    display: inline-block;
+}
+
+.recommendations textarea {
+    resize: none;
+    width: 100%;
+    background: none;
+    color: #999;
+    font-size: 1em;
+    outline: none;
+    padding: 1em .8em;
+    border: solid 1px #fff;
+    min-height:12.5 em;
+    height: 175px;
+
+}
+
+
+
+.recommendations-left {
+    padding: 0;
+}
+
+.recommendations input[type="submit"] {
+    outline: none;
+    color: #fff;
+    padding: .5em 2em;
+    margin-top: 12px;
+    font-size: 1em;
+    background: #01bcfa;
+    border: 1px solid #01bcfa;
+    transition: 0.5s all;
+    float: right;
+    letter-spacing: 1px;
+}
+
+#table-name {
+	
+	margin: 1em;
+}
+
+.recommendations input[type="text"]:focus,
+.recommendations textarea:focus {
+    border-color: #00b8ce;
+}
+
+.recommendations input[type="submit"]:hover {
+    background: none;
+    color: #01bcfa;
+    border-color: #01bcfa;
+}
+
+.name {
+    color: #fff;
+    font-size: 1.7em;
+    text-transform: capitalize;
+    line-height: 1.8em;
+
+}
+
+
+.jobtitle {
+    color: #dcad3f;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 1.8em;
+}
+
+.organization {
+    color: #8a8a8a;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 1.8em;
+
+}
+
+.recommendati0n {
+    color: #8a8a8a;
+    font-size: 1em;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    width: 59%;
+    letter-spacing: 1px;
+    overflow-wrap: break-word;
+   
+}
+
+.name,
+.jobtitle,
+.organization {
+    display: block;
+}
+
+
+/* footer */
+.footer{
+	   background: #000;
+       padding: 3.5em 0 3em 0;
+      
+
+}
+
+.footergrid {
+    margin: 0 auto;
+    text-align: center;
+}
+.footergrids {
+	color:#fff;
+	line-height:2em;
+	margin:2em auto 5em;
+	margin: 0 auto;
+	text-align:center;
+}
+
+footergridleftr{
+    margin-top: 10px;
+}
+footergridleftr h4{
+	font-size: 1.2em;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: .5em;
+}
+footergridleftr p{
+	color:#fff;
+	line-height:1.5em;
+}
+.footergridleftr a{
+	color:#fff;
+	text-decoration:none;
+	font-size:14px;
+}
+.footergridleftr:hover{
+	color:#44c7f4;
+}
+
+.footergridleftr a:hover{
+	color:#44c7f4;
+}
+
+
+.footergridleft {
+    float: left;
+    width: 31%;
+    margin: 0;
+    padding: 20px 20px;
+}
+
+/* Responsive */
+@media(max-width:1080px){
+
+	.eduinforight2 h3 {
+    font-size: 1.8em;
+    letter-spacing: 1px;
+	}
+	.eduinforight2 p {
+    color: #8a8a8a;
+    font-size: 1em;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    width: 68%;
+	}
+
+	.eduinfo2 h3 {
+    font-size: 1.8em;
+    letter-spacing: 1px;
+	}
+
+
+}
+
+@media(max-width:1024px){
+
+	.eduinfo1 h4 {
+    letter-spacing: 1px;
+	}
+}
+@media(max-width:991px){
+
+	.eduinfo1 {
+    width: 33.33%;
+    float: left;
+	}
+	.eduinfo2 {
+    width: 50%;
+    float: left;
+	}
+
+	.eduinforight1 {
+    width: 33.33%;
+    float: left;
+	}
+	.eduinforight2 {
+    width: 66%;
+    float: left;
+	}
+	.eduinforight1 {
+    width: 33.33%;
+    float: left;
+	}
+	.edugridleft {
+    margin-left: 11em;
+	}
+	.edugridright {
+    margin-left: 11em;
+	}
+
+}
+@media(max-width:800px){
+
+	.edugridleft {
+    margin-left: 9em;
+	}
+	.edugridright {
+    margin-left: 9em;
+	}
+}
+
+@media(max-width:736px){
+	.aboutgridright1 h3 {
+    font-size: 2em;
+    letter-spacing: 1px;
+    
+	}
+	.aboutgridright1 h5 {
+    letter-spacing: 1px;
+	}
+
+	.recommendation textarea {
+    margin-top: 1em;
+	}
+	.recommendations-right{
+    padding: 0;
+	}
+	.gridheader h3 {
+    font-size: 2.5em;
+	}
+	.recommendations input[type="submit"] {
+    width: 25%;
+    float: none;
+    margin: 12px auto 0;
+	}
+}
+
+@media(max-width:640px){
+
+    .edugridleft {
+    margin-left: 8em;
+	}
+	.edugridright {
+    margin-left: 8em;
+	}
+
+}
+@media(max-width:600px){
+	
+	.eduinforight2 p {
+    width: 91%;
+	}
+	.eduinfo2 h3 {
+    font-size: 1.7em;
+    letter-spacing: 1px;
+	}
+	.edugridleft {
+    margin-left: 6em;
+	}
+
+	 .heading h3, .skillheading h4, .recommendationheading h3 {
+    font-size: 2.5em;
+	}
+}
+	
+@media(max-width:568px){
+	
+	.edugridleft {
+    margin-left: 5em;
+	}
+	.edugridright {
+    margin-left: 5em;
+	}
+}
+@media(max-width:480px){
+	
+	.eduinfo1 {
+    width: 100%;
+    float: left;
+	}
+	.eduinfo2 {
+    width: 100%;
+    float: left;
+	}
+	.eduinforight1 {
+    width: 100%;
+    float: left;
+	}
+	.eduinforight2 {
+    width: 100%;
+    float: left;
+	}
+	
+	.footergridleft {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 13px 0px;
+	}
+	
+	 .heading h3, .skillheading h4, .recommendationheading h3  {
+    font-size: 3em;
+    color: #00bcd4;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+	}
+	.edugridheader h3 {
+    font-size: 3em;
+	}
+	.bannergridright h3 {
+    font-size: 2.5em;
+	}
+	.skills, .recommendation {
+    padding: 2em 0em;
+	}
+	
+	 .heading h3, .skillheading h4, .recommendationheading h3  {
+    font-size:2.5em;
+	}
+	.edugridheader h3 {
+    font-size: 2.5em;
+	}
+}
+@media(max-width:414px){
+	
+	.edugridleft {
+	margin-left: 0em;
+	}
+	.edugridright {
+    margin-left: 0;
+	}
+	.eduinforight2 p {
+    width: 100%;
+	}
+	
+	.footer {
+    padding: 1em 0 4em 0;
+	}
+	.recommendations input[type="submit"] {
+    width: 32%;
+	}
+	
+}
+@media(max-width:384px){
+	
+	.footer {
+    padding: 1em 0 2em 0;
+	}
+	
+}
+
+@media(max-width:320px){
+
+	 .heading h3, .skillheading h4, .recommendationheading h3  {
+    font-size: 2.5em;
+	}
+	.edugridheader h3 {
+    font-size: 2.5em;
+	}
+	
+	 .heading h3, .skillheading h4, .recommendationheading h3  {
+    font-size: 2em;
+	}
+	.edugridheader h3 {
+    font-size: 2em;
+	}
+	.recommendation input[type="submit"] {
+    width: 39%;
+	}
+
